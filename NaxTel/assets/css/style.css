@@ -1,0 +1,267 @@
+.container {
+  width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header .header-up {
+  background-color: orange;
+}
+header .header-up .container {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-up .container ul {
+  display: flex;
+  padding: 0;
+}
+header .header-up .container ul li {
+  list-style: none;
+}
+header .header-up .container ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+header .header-up .container .header-up-left ul li .firsta, header .header-up .container .header-up-left ul li .firstb {
+  border-right: 1px solid #fff;
+  padding-right: 20px;
+}
+header .header-up .container .header-up-left ul li .firstb, header .header-up .container .header-up-left ul li .firstc {
+  padding-left: 10px;
+}
+header .header-up .container .header-up-right ul li .first-a {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+header .header-up .container .header-up-right ul li .first-b {
+  margin-left: 10px;
+}
+
+main #services .row {
+  background-color: #fff;
+}
+main #services .row .img img {
+  width: 90px;
+  height: 49px;
+}
+main #services .row .service ul {
+  display: flex;
+}
+main #services .row .service ul li {
+  margin-left: 10px;
+}
+main #services .row .service ul li a {
+  color: black;
+}
+main #advertising .container .row div img {
+  width: 100%;
+  height: 505px;
+}
+main #products .container .produ1 {
+  height: 60px;
+}
+main #products .container .produ1 h2 {
+  color: #727272;
+  text-align: center;
+  padding-top: 15px;
+}
+main #products .container .row .product {
+  width: 360px;
+  height: 460px;
+  background-color: orange;
+  margin-left: 30px;
+  position: relative;
+}
+main #products .container .row .product .price {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+main #products .container .row .product .price span {
+  font-size: 40px;
+  background-color: #fff;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+main #products .container .row .product .name {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+main #products .container .row .product .name h3 {
+  text-align: center;
+}
+main #products .container .row .product .productcon {
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 2px;
+  height: 80%;
+}
+main #products .container .row .product .productcon .time .col {
+  text-align: center;
+}
+main #products .container .row .product .productcon .time .col .line {
+  width: 60%;
+  height: 2px;
+  background-color: #000;
+  margin-left: 60px;
+}
+main #products .container .row .product .productcon .time h3 {
+  text-align: center;
+}
+main #products .container .row .product .productcon .time img {
+  width: 100px;
+}
+main #products .container .row .product .productcon .time button {
+  position: absolute;
+  right: 0;
+}
+main #source .row {
+  height: 350px;
+  background-color: orange;
+  border-bottom-left-radius: 50%;
+}
+main #source .row .container {
+  position: relative;
+}
+main #source .row .container .photo1 div {
+  width: 100%;
+  margin-left: 30px;
+}
+main #source .row .container .photo1 div img:first-child {
+  width: 100px;
+  height: 70px;
+}
+main #source .row .container .photo1 div img:last-child {
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  right: 20px;
+}
+main #source .row .container .photo1 > div:last-child {
+  position: relative;
+}
+main #source .row .container .photo1 > div:last-child h1 {
+  margin-top: 10px;
+  color: #000;
+}
+main #source .row .container .photo1 > div:last-child h3 {
+  color: #fff;
+}
+main #source .row .container .photo1 > div:last-child img {
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+}
+main #source .row .container .photo1 > div:last-child img:last-child {
+  position: absolute;
+  left: 210px;
+}
+main #offers .container {
+  height: 350px;
+}
+main #offers .container .row:first-child h1 {
+  text-align: center;
+  color: #727272;
+}
+main #offers .container .row:nth-child(2) img {
+  width: 160px;
+  height: 160px;
+  margin-left: 120px;
+}
+main #offers .container .row:nth-child(3) .img-name {
+  display: flex;
+}
+main #offers .container .row:nth-child(3) .img-name > h3 {
+  margin-left: 120px;
+}
+main #offers .container .row:nth-child(3) .img-name > h3:nth-child(2) {
+  margin-left: 170px;
+}
+main #offers .container .row:nth-child(3) .img-name > h3:nth-child(3) {
+  margin-left: 170px;
+}
+main #offers .container .row:nth-child(3) .img-name > h3:nth-child(4) {
+  margin-left: 160px;
+}
+main #offers .container .row:last-child .img-button > button {
+  margin-left: 140px;
+  background-color: #fff !important;
+  border: 1px solid orange;
+  border-radius: 40px !important;
+}
+main #offers .container .row:last-child .img-button > button:nth-child(2) {
+  margin-left: 210px;
+}
+main #offers .container .row:last-child .img-button > button:nth-child(3) {
+  margin-left: 200px;
+}
+main #offers .container .row:last-child .img-button > button:nth-child(4) {
+  margin-left: 210px;
+}
+main #offers .container .row:last-child .img-button > button:hover {
+  background-color: orange !important;
+}
+main #news .container .row:first-child h2 {
+  text-align: center;
+  color: #727272;
+}
+main #news .container .row:last-child button {
+  color: #fff;
+  border: orange;
+}
+
+footer {
+  background-color: rgb(92, 200, 200);
+}
+footer .container {
+  margin-top: 50px;
+}
+footer .container .row:first-child {
+  background-color: rgb(92, 200, 200);
+}
+footer .container .row:first-child ul {
+  width: 230px;
+}
+footer .container .row:first-child ul h3 {
+  color: #fff;
+}
+footer .container .row:first-child ul li {
+  color: #fff;
+}
+footer .container .row:first-child ul li:first-child {
+  font-size: 25px;
+}
+footer .container .row:first-child > div:nth-child(1) {
+  margin-left: 20px;
+}
+footer .container .row:first-child > div:nth-child(2) {
+  margin-left: 20px;
+}
+footer .container .row:first-child > div:nth-child(3) {
+  margin-left: 30px;
+}
+footer .container .row:first-child > div:nth-child(4) {
+  margin-left: 30px;
+}
+footer .row {
+  background-color: teal;
+}
+footer .row > div h5 {
+  margin-left: 170PX;
+  color: #fff;
+}
+footer .a div {
+  padding-left: 190px;
+}
+footer .a div i {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
